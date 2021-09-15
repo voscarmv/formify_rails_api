@@ -1,24 +1,12 @@
-# README
+# Formify Rails API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the api for [formify_rails]().
 
-Things you may want to cover:
+# Usage
 
-* Ruby version
+`git clone` and `cd` into the repo, and:
 
-* System dependencies
+ 1. `$ bundler`
+ 2. `$ rails s`
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can also `rails g scaffold` to add more tables to the CRUD.
